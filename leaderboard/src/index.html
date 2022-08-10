@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Leaderboard</title>
+  </head>
+  <body>
+    <div id="board" class="my-5 vertical-center">
+      <div id="title"><h1>Leaderboard</h1></div>
+      <div id="player-info">
+        <form name="myForm"  class="vertical-center" id="forms" onsubmit="return add_to_list()" required>
+            <input type="text" name="fname"  class="info " placeholder="Player First Name">
+            <input type="text" name="lname" class="info " placeholder="Player Last Name">
+            <input type="text" name="country" class="info " placeholder="Country">
+            <input type="text" name="score" class="info " placeholder="Player Score">
+            <input type="submit" value="ADD PLAYER" id="submit">
+        </form>
+      </div>
+      <ol id="lists">
+      </ol>
+      <div id="alert"><b>Enter all fields</b></div>
+    </div>
+  </body>
+</html>
