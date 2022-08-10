@@ -9,7 +9,6 @@ const AboutMe = () => (
     </div>
     <div className="gpt3__whatgpt3-heading">
       <h1 className="gradient__text">Well-organised person, problem solver, independent employee with high attention to detail.</h1>
-      <p>Explore the Library</p>
     </div>
     <div className="gpt3__whatgpt3-container">
       <Feature title="Full-Stack" text="" />
