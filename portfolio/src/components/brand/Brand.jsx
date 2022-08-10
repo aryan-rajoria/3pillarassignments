@@ -1,25 +1,15 @@
-import React from 'react';
-import { slack, atlassian, dropbox } from './imports';
-import './brand.css';
+/* eslint-disable quotes */
+/* eslint-disable react/jsx-indent */
+import React from "react";
+import "./brand.css";
 
 const Brand = () => (
-  <div className="gpt3__brand section__padding">
-    <div>
-      {/* <img src={google} /> */}
+    <div className="gpt3__brand section__padding">
+        <div>
+            <p>Third Eye</p>
+        </div>
+        <div>3Pillar Global</div>
     </div>
-    <div>
-      <img src={slack} />
-    </div>
-    <div>
-      <img src={atlassian} />
-    </div>
-    <div>
-      <img src={dropbox} />
-    </div>
-    <div>
-      {/* <img src={shopify} /> */}
-    </div>
-  </div>
 );
 
 export default Brand;
