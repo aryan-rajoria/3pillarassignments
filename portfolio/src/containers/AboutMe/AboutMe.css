@@ -1,4 +1,4 @@
-.gpt3__whatgpt3 {
+.port__whatport {
     display: flex;
     flex-direction: column;
 
@@ -6,47 +6,72 @@
     background: var(--color-footer);
 
     /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background: -moz-radial-gradient(
+        circle at 30% -100%,
+        #042c54 25%,
+        rgba(4, 44, 84, 1) 85%,
+        rgba(27, 120, 222, 1) 100%
+    );
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background: -webkit-radial-gradient(
+        circle at 30% -100%,
+        #042c54 25%,
+        rgba(4, 44, 84, 1) 85%,
+        rgba(27, 120, 222, 1) 100%
+    );
 
     /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background: -o-radial-gradient(
+        circle at 30% -100%,
+        #042c54 25%,
+        rgba(4, 44, 84, 1) 85%,
+        rgba(27, 120, 222, 1) 100%
+    );
 
     /* ie 10+ */
-    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background: -ms-radial-gradient(
+        circle at 30% -100%,
+        #042c54 25%,
+        rgba(4, 44, 84, 1) 85%,
+        rgba(27, 120, 222, 1) 100%
+    );
 
     /* global 92%+ browsers support */
-    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background: radial-gradient(
+        circle at 30% -100%,
+        #042c54 25%,
+        rgba(4, 44, 84, 1) 85%,
+        rgba(27, 120, 222, 1) 100%
+    );
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.gpt3__whatgpt3-feature {
+.port__whatport-feature {
     display: flex;
 }
 
 /* Customizing feature component as per needs */
-.gpt3__whatgpt3-feature .gpt3__features-container__feature {
+.port__whatport-feature .port__features-container__feature {
     margin: 0;
 }
 
 /* Customizing feature component as per needs */
-.gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+.port__whatport-feature .port__features-container_feature-text {
     max-width: 700px;
 }
 
-.gpt3__whatgpt3-heading {
+.port__whatport-heading {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+
     margin: 4rem 0 2rem;
 }
 
-.gpt3__whatgpt3-heading h1 {
+.port__whatport-heading h1 {
     font-size: 34px;
     line-height: 45px;
     font-weight: 800;
@@ -54,7 +79,7 @@
     max-width: 510px;
 }
 
-.gpt3__whatgpt3-heading p {
+.port__whatport-heading p {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -63,7 +88,7 @@
     cursor: pointer;
 }
 
-.gpt3__whatgpt3-container {
+.port__whatport-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -72,7 +97,7 @@
 }
 
 /* Customizing feature component as per needs */
-.gpt3__whatgpt3-container .gpt3__features-container__feature {
+.port__whatport-container .port__features-container__feature {
     flex: 1;
     margin: 1rem;
     min-width: 210px;
@@ -81,34 +106,34 @@
 }
 
 /* Customizing feature component as per needs */
-.gpt3__whatgpt3-container .gpt3__features-container_feature-text {
+.port__whatport-container .port__features-container_feature-text {
     margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 850px) {
-    .gpt3__whatgpt3-heading {
+    .port__whatport-heading {
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 0rem;
     }
 
-    .gpt3__whatgpt3-heading p {
+    .port__whatport-heading p {
         margin-top: 1rem;
     }
 }
 
 @media screen and (max-width: 650px) {
     /* Customizing feature component as per needs */
-    .gpt3__whatgpt3-feature .gpt3__features-container__feature {
+    .port__whatport-feature .port__features-container__feature {
         flex-direction: column;
     }
 
     /* Customizing feature component as per needs */
-    .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+    .port__whatport-feature .port__features-container_feature-text {
         margin-top: 0.5rem;
     }
 
-    .gpt3__whatgpt3-heading h1 {
+    .port__whatport-heading h1 {
         font-size: 28px;
         line-height: 40px;
     }
@@ -116,7 +141,7 @@
 
 @media screen and (max-width: 350px) {
     /* Customizing feature component as per needs */
-    .gpt3__whatgpt3-container .gpt3__features-container__feature {
+    .port__whatport-container .port__features-container__feature {
         margin: 1rem 0;
         min-width: 100%;
     }
