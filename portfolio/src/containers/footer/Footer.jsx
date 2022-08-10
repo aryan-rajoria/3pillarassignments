@@ -37,9 +37,7 @@ const Footer = () => (
             </div>
             <div className="port__footer-links_div">
                 <h4>Get in touch</h4>
-                <p>Lodha Belmondo, Pune</p>
-                <p>+91-9082879883</p>
-                <p>e19cse319@bennett.edu.in</p>
+                
             </div>
         </div>
 
